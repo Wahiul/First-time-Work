@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.title{
+	font-size: 62px;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+}
+.btn{
+	background-color: #2e367d;
+	color: white;
+	border: none;
+	height: 42px;
+	width: 104px;
+	border-radius: 4px;
+}
+.img-fluid{
+	border-radius: 100%;
+}
+.box{
+	text-align: center;
+}
+.header{
+	text-align: center;
+	background-color: #142F43;
+}
+.header ul li{
+	line-height: 74px;
+	color: white;
+	list-style: none;
+	display: inline-block;
+	width: 84px;
+	font-size: 18px;
+	transition: 0.5s;
+}
+.desc{
+	line-height: 24px;
+}
+
+.btn:hover{
+	background-color: tomato;
+	cursor: pointer;
+}
+
+.header ul li:hover{
+	color: white;
+	cursor: pointer;
+	transform: rotate(360deg);
+	transition: 0.5s;
+}
